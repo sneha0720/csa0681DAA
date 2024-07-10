@@ -3,8 +3,6 @@ def find_palindromic_string(words):
         if word == word[::-1]:
             return word
     return ""
-
-# Example 1
 words1 = ["abc", "car", "ada", "racecar", "cool"]
 output1 = find_palindromic_string(words1)
 print(output1)  # Output: "ada"
